@@ -1,0 +1,15 @@
+mkdir mydir
+cd mydir
+
+git init
+git remote add origin https://github.com/SushantBalami/GitHubClass.git
+git pull origin master
+
+Edit the file project.txt
+
+git status
+git add project.txt 
+git status
+git commit -m "Prajesh changed the file project.txt"
+git status
+git push -u origin master
